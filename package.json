@@ -1,0 +1,30 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "a simple node project for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insomniac1426/node-basics.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Yash Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insomniac1426/node-basics/issues"
+  },
+  "homepage": "https://github.com/insomniac1426/node-basics#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
